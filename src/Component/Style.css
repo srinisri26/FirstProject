@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.register-form {
+	position: relative;
+	height: 250px;
+	width: 350px;
+	border: 1px solid black;
+}
+.register-form .form-field {
+	position: relative;
+	top: 30px;
+}
+.btn {
+	margin-top: 30px;
+}
+.spanfname {
+	color: red;
+	position: absolute;
+	font-size: 12px;
+	top: 58px;
+	right: 150px;
+}
+.spanlname {
+	color: red;
+	position: absolute;
+	font-size: 12px;
+	top: 110px;
+	right: 150px;
+}
+.spanemail {
+	color: red;
+	position: absolute;
+	font-size: 12px;
+	top: 163px;
+	right: 170px;
+}
