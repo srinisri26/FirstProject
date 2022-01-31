@@ -11,12 +11,19 @@ function Login() {
 		errEmail: "",
 		errColor: "",
 		errColor1: "",
-		errColor2: ""
+		errColor2: "",
+		errorFullBox: ""
 	})
 
 	const handlesubmit = () => {
 		if (name.firstName.length > 0 && name.lastName.length > 0 && name.email.length > 0) {
 			alert("Sucessfully Submitted")
+		} else if (name.firstName === "" && name.lastName === "" && name.email === "") {
+			alert("Given Fields are Not Updated")
+			setname({
+				...name,
+				errorFullBox: "Please Enter The Field"
+			})
 		} else if (name.firstName === "") {
 			setname({
 				...name,
@@ -50,10 +57,11 @@ function Login() {
 									...name,
 									firstName: e.target.value,
 									errFirstName: "",
-									errColor: ""
+									errColor: "",
+									errorFullBox: ""
 								})
 							}}></input>
-
+						<span className="spanerror">{name.errorFullBox}</span>
 						<span className="spanfname">{name.errFirstName}</span>
 
 						<br></br>
@@ -69,9 +77,11 @@ function Login() {
 									...name,
 									lastName: e.target.value,
 									errLastName: "",
-									errColor1: ""
+									errColor1: "",
+									errorFullBox: ""
 								})
 							}></input>
+						<span className="spanerror1">{name.errorFullBox}</span>
 						<span className="spanlname">{name.errLastName}</span>
 						<br></br>
 						<br></br>
@@ -86,9 +96,11 @@ function Login() {
 									...name,
 									email: e.target.value,
 									errEmail: "",
-									errColor2: ""
+									errColor2: "",
+									errorFullBox: ""
 								})
 							}></input>
+						<span className="spanerror2">{name.errorFullBox}</span>
 						<span className="spanemail">{name.errEmail}</span>
 						<br></br>
 						<br></br>

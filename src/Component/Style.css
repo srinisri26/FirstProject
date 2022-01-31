@@ -13,7 +13,7 @@
 	top: 30px;
 }
 .btn {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 .spanfname {
 	color: red;
@@ -35,4 +35,28 @@
 	font-size: 12px;
 	top: 163px;
 	right: 170px;
+}
+.spanerror {
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	right: 110px;
+	letter-spacing: 1px;
+	top: 55px;
+}
+.spanerror1 {
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	right: 110px;
+	letter-spacing: 1px;
+	top: 110px;
+}
+.spanerror2 {
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	right: 110px;
+	letter-spacing: 1px;
+	top: 160px;
 }
