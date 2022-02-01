@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/srinisri26/Regexvalidation.git/static/css/main.0e6cb9a9.css",
+    "main.js": "/srinisri26/Regexvalidation.git/static/js/main.6dd912bc.js",
+    "static/js/787.76d73af4.chunk.js": "/srinisri26/Regexvalidation.git/static/js/787.76d73af4.chunk.js",
+    "index.html": "/srinisri26/Regexvalidation.git/index.html",
+    "main.0e6cb9a9.css.map": "/srinisri26/Regexvalidation.git/static/css/main.0e6cb9a9.css.map",
+    "main.6dd912bc.js.map": "/srinisri26/Regexvalidation.git/static/js/main.6dd912bc.js.map",
+    "787.76d73af4.chunk.js.map": "/srinisri26/Regexvalidation.git/static/js/787.76d73af4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e6cb9a9.css",
+    "static/js/main.6dd912bc.js"
+  ]
+}
