@@ -4,7 +4,7 @@
 }
 .register-form {
 	position: relative;
-	height: 250px;
+	height: 300px;
 	width: 350px;
 	border: 1px solid black;
 }
@@ -12,14 +12,20 @@
 	position: relative;
 	top: 30px;
 }
+.form-field1 {
+	position: relative;
+	top: 30px;
+	left: 0px;
+}
 .btn {
-	margin-top: 40px;
+	margin-top: 60px;
+	margin-right: 100px;
 }
 .spanfname {
 	color: red;
 	position: absolute;
 	font-size: 12px;
-	top: 58px;
+	top: 60px;
 	right: 150px;
 }
 .spanlname {
@@ -27,36 +33,59 @@
 	position: absolute;
 	font-size: 12px;
 	top: 110px;
-	right: 150px;
+	right: 165px;
 }
 .spanemail {
 	color: red;
 	position: absolute;
 	font-size: 12px;
 	top: 163px;
-	right: 170px;
+	right: 163px;
 }
-.spanerror {
-	font-size: 14px;
+.spanpassword {
 	color: red;
 	position: absolute;
-	right: 110px;
+	font-size: 12px;
+	top: 215px;
+	right: 135px;
+}
+.spanerror {
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	right: 130px;
 	letter-spacing: 1px;
 	top: 55px;
 }
 .spanerror1 {
-	font-size: 14px;
+	font-size: 13px;
 	color: red;
 	position: absolute;
-	right: 110px;
+	right: 130px;
 	letter-spacing: 1px;
 	top: 110px;
 }
 .spanerror2 {
-	font-size: 14px;
+	font-size: 13px;
 	color: red;
 	position: absolute;
-	right: 110px;
+	right: 130px;
 	letter-spacing: 1px;
 	top: 160px;
+}
+.spanerror3 {
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	top: 215px;
+	right: 130px;
+	letter-spacing: 1px;
+}
+.spanerror4 {
+	font-size: 13px;
+	color: red;
+	position: absolute;
+	top: 160px;
+	right: 130px;
+	letter-spacing: 1px;
 }

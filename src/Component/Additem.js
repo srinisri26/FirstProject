@@ -7,7 +7,8 @@ function Additem() {
 		{ id: "3", name: "Realme" }
 	])
 	const change = () => {
-		setitem([{ name: "redmi" }, { name: "redmi" }, { name: "redmi" }, { name: "redmi" }])
+		setitem([...item, { name: "redmi" }
+		])
 	}
 	return (
 		<div>
@@ -17,7 +18,7 @@ function Additem() {
 					<li key={produ.id}>{produ.name}</li>
 				))}
 			</ul>
-			<button onClick={change}>Additem</button>
+			<button onClick={() => change()}>Additem</button>
 		</div>
 	)
 }

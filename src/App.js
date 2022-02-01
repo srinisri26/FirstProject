@@ -1,5 +1,6 @@
 import "./App.css"
 import Additem from "./Component/Additem"
+import ApiGetAxios from "./Component/ApiGetAxios"
 import Login from "./Component/Login"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
 		<div className="App">
 			{/*<Additem />*/}
 			<Login />
+			{/*<ApiGetAxios />*/}
 		</div>
 	)
 }
