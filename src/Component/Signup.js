@@ -123,7 +123,7 @@ function Signup() {
 							className="button btn btn-primary"
 							type="button"
 							onClick={() => change()}>
-							Submit
+							Signup
 						</button>
 					</center>
 					<Link to="/Login">
