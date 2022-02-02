@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Style.css"
-
+import { Link } from "react-router-dom"
 function Login() {
 	const [name, setname] = useState({
 		firstName: "",
@@ -49,15 +49,16 @@ function Login() {
 			setname({ ...name, errLastName: "Enter the last name", errColor1: "red" })
 		} else if (name.email === "") {
 			setname({ ...name, errEmail: "Enter valid email-id", errColor2: "red" })
-		} else if (result) {
-			setname({
-				...name,
-				errValidator: ""
-			})
-		} else if (result !== "") {
+		} else if (!result) {
 			setname({
 				...name,
 				errValidator: "enter the valid email"
+			})
+		} else if (name.password == "") {
+			setname({
+				...name,
+				errPassword: "enter the password",
+				errColor3: "red"
 			})
 		}
 	}
@@ -155,6 +156,11 @@ function Login() {
 							{" "}
 							Submit
 						</button>
+						<center>
+							<Link to="/Signup">
+								<h4>Don't Have An Account ?</h4>
+							</Link>
+						</center>
 					</form>
 				</div>
 			</center>

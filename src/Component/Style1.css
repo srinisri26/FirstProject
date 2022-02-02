@@ -1,0 +1,97 @@
+.form-body {
+	height: 520px;
+	width: 350px;
+	border: 1px solid black;
+	margin-top: -40px;
+}
+.form-body .firstname {
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+	right: 90px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.finputfield {
+	position: relative;
+	top: 40px;
+	right: 5px;
+	padding: 2px 50px;
+}
+.errfirst {
+	position: absolute;
+	color: red;
+	right: 139px;
+	top: 105px;
+	letter-spacing: 1px;
+}
+.lastname {
+	font-size: 20px;
+	position: relative;
+	top: 68px;
+	right: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.linputname {
+	position: absolute;
+	top: 170px;
+	right: 38px;
+	padding: 2px 50px;
+}
+.errlast {
+	position: absolute;
+	color: red;
+	right: 147px;
+	top: 200px;
+	letter-spacing: 1px;
+}
+.passwordss {
+	font-size: 20px;
+	position: relative;
+	top: 160px;
+	right: 150px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.pinputname {
+	position: absolute;
+	top: 260px;
+	right: 38px;
+	padding: 2px 50px;
+}
+.button {
+	position: absolute;
+	top: 420px;
+}
+.erpassword {
+	position: absolute;
+	color: red;
+	right: 149px;
+	top: 290px;
+	letter-spacing: 1px;
+}
+.confirmpassword {
+	font-size: 20px;
+	position: relative;
+	top: 220px;
+	right: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.cpass {
+	position: absolute;
+	top: 350px;
+	right: 38px;
+	padding: 2px 50px;
+}
+.errconfpas {
+	position: absolute;
+	color: red;
+	right: 149px;
+	top: 380px;
+	letter-spacing: 1px;
+}
+.h4 {
+	position: absolute;
+	left: 55px;
+	top: 470px;
+	cursor: pointer;
+	font-size: 20px;
+}
