@@ -19,7 +19,7 @@ function Login() {
 		errValidator: ""
 	})
 	const handlesubmit = () => {
-		const pattern = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/
+		const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i
 		let result = pattern.test(name.email)
 		if (
 			name.firstName.length > 0 &&

@@ -1,0 +1,87 @@
+.form-body {
+	height: 470px;
+	width: 350px;
+	border: 1px solid black;
+	position: relative;
+	top: 50px;
+	left: 380px;
+	border-radius: 20px;
+}
+.form-body h3 {
+	margin-top: 10px;
+}
+.username {
+	font-size: 20px;
+	position: relative;
+	font-family: sans-serif;
+	top: 25px;
+	font-weight: bold;
+	right: 92px;
+}
+.user-text {
+	font-size: 20px;
+	position: relative;
+	top: 35px;
+	font-weight: bold;
+	left: -13px;
+}
+.email {
+	font-size: 20px;
+	position: relative;
+	font-family: sans-serif;
+	top: 10px;
+	font-weight: bold;
+	left: 18px;
+}
+.etx {
+	font-size: 20px;
+	position: relative;
+	font-family: sans-serif;
+	top: 40px;
+	font-weight: bold;
+	left: -55px;
+}
+.passwordname {
+	font-size: 20px;
+	position: relative;
+	font-family: sans-serif;
+	top: 20px;
+	font-weight: bold;
+	right: 99px;
+}
+.ptx {
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+	font-weight: bold;
+	left: -15px;
+}
+.submit-btn {
+	position: relative;
+	top: 40px;
+	font-size: 18px;
+	font-family: sans-serif;
+	padding: 2px 8px 2px 8px;
+	right: 10px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.formerror-user {
+	position: relative;
+	color: orangered;
+	top: 40px;
+	right: 68px;
+}
+.formerror-email {
+	position: relative;
+	color: orangered;
+	top: 50px;
+	right: 72px;
+}
+.formerror-password {
+	position: relative;
+	color: orangered;
+	top: 30px;
+	right: 71px;
+}
